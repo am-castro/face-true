@@ -1,0 +1,41 @@
+.header{
+  margin: 0;
+  padding: 10px;
+  width: 100%;
+  height: 60px;
+  background-color: white;
+}
+.logo{
+ width: 46px;
+}
+.search{
+  background-color: #f0f2f5;
+  color: darkgray;
+  width: 200px;
+  height: 20px;
+  padding: 15px;
+  margin: 0 20px 0 15px;
+  border: none;
+  border-radius: 26px;
+  font-family: Helvetica;
+  font-size: 15px;
+}
+.menu{
+  padding: 10px 50px 10px 50px;
+  margin: 0 5px 0 5px;
+}
+.menu:hover{
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.menu-active{
+  border-bottom: 6px solid white;
+}
+.menu-direito{
+  margin: 0 10px 0 10px;
+}
+.menu-esquerdo{
+  top: 500px;
+  padding: 8px;
+  position: absolute;
+  direction: rtl;
+}
